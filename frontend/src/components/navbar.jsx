@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 w-[90%] md:w-[80%] bg-gradient-to-r from-cyan-500 to-cyan-700 border border-white/20 rounded-2xl shadow-lg shadow-black">
+    <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 w-[90%] md:w-[80%] bg-black border border-white/20 rounded-2xl ">
       <div className="flex justify-between items-center p-4">
     
         <div className="md:hidden">
